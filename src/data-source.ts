@@ -2,6 +2,7 @@ import { DataSource } from 'typeorm';
 
 import { User } from './users/user.entity';
 import { Exhibit } from './exhibits/exhibit.entity';
+import { Comment } from './comments/comment.entity';
 
 export const AppDataSource = new DataSource({
   type: 'postgres',
